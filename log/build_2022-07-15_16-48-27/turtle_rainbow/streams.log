@@ -1,0 +1,25 @@
+[0.471s] Invoking command in '/home/l0voj/ros2_ws/src/turtle_rainbow/build/turtle_rainbow': PYTHONPATH=/home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow --editable --build-directory /home/l0voj/ros2_ws/src/turtle_rainbow/build/turtle_rainbow/build --no-deps install_data --install-dir /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow
+[0.642s] running develop
+[0.744s] running egg_info
+[0.744s] creating turtle_rainbow.egg-info
+[0.744s] writing turtle_rainbow.egg-info/PKG-INFO
+[0.744s] writing dependency_links to turtle_rainbow.egg-info/dependency_links.txt
+[0.744s] writing entry points to turtle_rainbow.egg-info/entry_points.txt
+[0.744s] writing requirements to turtle_rainbow.egg-info/requires.txt
+[0.744s] writing top-level names to turtle_rainbow.egg-info/top_level.txt
+[0.745s] writing manifest file 'turtle_rainbow.egg-info/SOURCES.txt'
+[0.769s] reading manifest file 'turtle_rainbow.egg-info/SOURCES.txt'
+[0.769s] writing manifest file 'turtle_rainbow.egg-info/SOURCES.txt'
+[0.795s] running build_ext
+[0.795s] Creating /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/lib/python3.8/site-packages/site.py
+[0.796s] Creating /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/lib/python3.8/site-packages/turtle-rainbow.egg-link (link to .)
+[0.797s] Installing turtle_rainbow script to /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/lib/turtle_rainbow
+[0.797s] 
+[0.797s] Installed /home/l0voj/ros2_ws/src/turtle_rainbow/build/turtle_rainbow
+[0.797s] running install_data
+[0.797s] creating /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/share/ament_index
+[0.798s] creating /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/share/ament_index/resource_index
+[0.798s] creating /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/share/ament_index/resource_index/packages
+[0.798s] copying resource/turtle_rainbow -> /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/share/ament_index/resource_index/packages
+[0.798s] copying package.xml -> /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/share/turtle_rainbow
+[0.815s] Invoked command in '/home/l0voj/ros2_ws/src/turtle_rainbow/build/turtle_rainbow' returned '0': PYTHONPATH=/home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow --editable --build-directory /home/l0voj/ros2_ws/src/turtle_rainbow/build/turtle_rainbow/build --no-deps install_data --install-dir /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow

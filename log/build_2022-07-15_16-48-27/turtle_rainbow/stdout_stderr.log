@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating turtle_rainbow.egg-info
+writing turtle_rainbow.egg-info/PKG-INFO
+writing dependency_links to turtle_rainbow.egg-info/dependency_links.txt
+writing entry points to turtle_rainbow.egg-info/entry_points.txt
+writing requirements to turtle_rainbow.egg-info/requires.txt
+writing top-level names to turtle_rainbow.egg-info/top_level.txt
+writing manifest file 'turtle_rainbow.egg-info/SOURCES.txt'
+reading manifest file 'turtle_rainbow.egg-info/SOURCES.txt'
+writing manifest file 'turtle_rainbow.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/lib/python3.8/site-packages/site.py
+Creating /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/lib/python3.8/site-packages/turtle-rainbow.egg-link (link to .)
+Installing turtle_rainbow script to /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/lib/turtle_rainbow
+
+Installed /home/l0voj/ros2_ws/src/turtle_rainbow/build/turtle_rainbow
+running install_data
+creating /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/share/ament_index
+creating /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/share/ament_index/resource_index
+creating /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/share/ament_index/resource_index/packages
+copying resource/turtle_rainbow -> /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/share/ament_index/resource_index/packages
+copying package.xml -> /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/share/turtle_rainbow

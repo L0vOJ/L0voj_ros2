@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/turtle_rainbow
+turtle_rainbow/__init__.py
+turtle_rainbow/turtle_rainbow_pen.py
+turtle_rainbow.egg-info/PKG-INFO
+turtle_rainbow.egg-info/SOURCES.txt
+turtle_rainbow.egg-info/dependency_links.txt
+turtle_rainbow.egg-info/entry_points.txt
+turtle_rainbow.egg-info/requires.txt
+turtle_rainbow.egg-info/top_level.txt
+turtle_rainbow.egg-info/zip-safe

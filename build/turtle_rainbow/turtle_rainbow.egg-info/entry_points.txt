@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_rainbow = turtle_rainbow.turtle_rainbow_pen:main
+

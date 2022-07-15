@@ -1,0 +1,17 @@
+[0.475s] Invoking command in '/home/l0voj/ros2_ws/src/turtle_rainbow/build/turtle_rainbow': PYTHONPATH=/home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow --editable --build-directory /home/l0voj/ros2_ws/src/turtle_rainbow/build/turtle_rainbow/build --no-deps install_data --install-dir /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow
+[0.643s] running develop
+[0.744s] running egg_info
+[0.745s] writing turtle_rainbow.egg-info/PKG-INFO
+[0.745s] writing dependency_links to turtle_rainbow.egg-info/dependency_links.txt
+[0.745s] writing entry points to turtle_rainbow.egg-info/entry_points.txt
+[0.745s] writing requirements to turtle_rainbow.egg-info/requires.txt
+[0.745s] writing top-level names to turtle_rainbow.egg-info/top_level.txt
+[0.768s] reading manifest file 'turtle_rainbow.egg-info/SOURCES.txt'
+[0.769s] writing manifest file 'turtle_rainbow.egg-info/SOURCES.txt'
+[0.794s] running build_ext
+[0.794s] Creating /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/lib/python3.8/site-packages/turtle-rainbow.egg-link (link to .)
+[0.794s] Installing turtle_rainbow script to /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/lib/turtle_rainbow
+[0.795s] 
+[0.795s] Installed /home/l0voj/ros2_ws/src/turtle_rainbow/build/turtle_rainbow
+[0.795s] running install_data
+[0.811s] Invoked command in '/home/l0voj/ros2_ws/src/turtle_rainbow/build/turtle_rainbow' returned '0': PYTHONPATH=/home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow --editable --build-directory /home/l0voj/ros2_ws/src/turtle_rainbow/build/turtle_rainbow/build --no-deps install_data --install-dir /home/l0voj/ros2_ws/src/turtle_rainbow/install/turtle_rainbow

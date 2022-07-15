@@ -43,8 +43,9 @@ class ChangePen(Node):
         self.req.g = (self.color[self.color_flag]&0xff00)>>8
         self.req.b = (self.color[self.color_flag]&0xff)
         self.req.width = 10
-        self.color_flag = (self.color_flag+1)%7
+        self.color_flag = (self.color_flag+1) % len(self.color)
         self.future = self.client.call_async(self.req)
+
     def __del__(self):
         self.req.r = 180
         self.req.g = 180
