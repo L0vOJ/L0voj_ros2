@@ -1,20 +1,3 @@
-# !/usr/bin/env/ python3
-#
-# Copyright 2021 @RoadBalance
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-
 from turtlesim.msg import Pose
 from turtlesim.srv import SetPen
 
@@ -23,20 +6,9 @@ import rclpy
 from rclpy.node import Node
 import math
 
-
-# example_interfaces/srv/SetBool srv Description.
-#
-# bool data # e.g. for hardware enabling / disabling
-# ---
-# bool success   # indicate successful run of triggered service
-# string message # informational, e.g. for error messages
-
-
 class ChangePen(Node):
-
     def __init__(self):
         super().__init__('turtle_rainbow')
-        #self.publisher = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
         queue_size = 10
         self.start_x = 5.0
         self.start_y = 5.0
@@ -77,7 +49,7 @@ class ChangePen(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    turtle_rainbow = ChangePen()    ##여기서 요청 
+    turtle_rainbow = ChangePen()
 
     rclpy.spin(turtle_rainbow)
 
