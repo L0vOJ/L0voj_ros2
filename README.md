@@ -1,7 +1,7 @@
 # turtle_rainbow
 ![rainbow](https://user-images.githubusercontent.com/60960373/179168646-603caa10-c6d8-4ad3-b284-70429b08b096.PNG)
 
-* reference by [Road-balance](https://github.com/Road-Balance/gcamp_ros2_basic)
+* reference by [Road-Balance](https://github.com/Road-Balance/gcamp_ros2_basic)
 
 ## 설치 및 활용법
 * 1. $ cd ~/ros2_ws/src (or) $ cs
