@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'turtle_rainbow'
+package_name = 'l0voj_turtle'
 
 setup(
     name=package_name,
@@ -14,13 +14,13 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='l0voj',
-    maintainer_email='l0voj@todo.todo',
+    maintainer_email='wonjjw98@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'turtle_rainbow = turtle_rainbow.turtle_rainbow_pen:main'
+            'turtle_rainbow = l0voj_turtle.turtle_rainbow_pen:main'
         ],
     },
 )
