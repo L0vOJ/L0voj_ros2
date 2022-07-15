@@ -6,10 +6,10 @@
 ## 설치 및 활용법 
 * 사용된 커맨드들 중 일부는 상단 reference와 관련된 수업 초반 과정을 개발환경에 적용시켰을 시 사용할 수 있습니다.
 * 1. $ cd ~/ros2_ws/src (or) $ cs
-* 2. $ git clone https://github.com/L0vOJ/turtle_rainbow.git
+* 2. $ git clone https://github.com/L0vOJ/l0voj_turtle_pkg.git
 * 3. $ cw && rosfoxy
-* 4. $ cbp turtle_rainbow && rosfoxy
-* 5. $ ros2 run turtle_rainbow turtle_rainbow
+* 4. $ cbp l0voj_turtle_pkg && rosfoxy
+* 5. $ ros2 run l0voj_turtle_pkg turtle_rainbow
 * 6. (new tap) $ ros2 run turtlesim turtlesim_node
 * 7. (new tap) $ ros2 run turtlesim turtle_teleop_key
 * 7번 명령어를 작동시킨 터미널에서 방향키로 조종하면 작동하는 것을 확인할 수 있습니다.
