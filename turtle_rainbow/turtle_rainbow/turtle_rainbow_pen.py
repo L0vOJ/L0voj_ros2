@@ -45,6 +45,12 @@ class ChangePen(Node):
         self.req.width = 10
         self.color_flag = (self.color_flag+1)%7
         self.future = self.client.call_async(self.req)
+    def __del__(self):
+        self.req.r = 180
+        self.req.g = 180
+        self.req.b = 180
+        self.req.width = 3
+        self.future = self.client.call_async(self.req)
 
 def main(args=None):
     rclpy.init(args=args)
@@ -52,7 +58,6 @@ def main(args=None):
     turtle_rainbow = ChangePen()
 
     rclpy.spin(turtle_rainbow)
-
     turtle_rainbow.destroy_node()
     rclpy.shutdown()
 
