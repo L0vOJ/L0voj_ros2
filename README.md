@@ -4,7 +4,7 @@
 * reference by [Road-balance](https://github.com/Road-Balance/gcamp_ros2_basic)
 
 ## 설치 및 활용법
-* 1. $ cd ~/ros2_ws/src or $ cs
+* 1. $ cd ~/ros2_ws/src (or) $ cs
 * 2. $ git clone https://github.com/L0vOJ/turtle_rainbow.git
 * 3. $ cw && rosfoxy
 * 4. $ cbp turtle_rainbow %% rosfoxy
