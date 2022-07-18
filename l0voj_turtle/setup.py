@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'turtle_rainbow = l0voj_turtle.turtle_rainbow_pen:main'
+            'turtle_rainbow = l0voj_turtle.turtle_rainbow_pen:main',
+            'teleop_twist_keyboard_sample = l0voj_turtle.keyboard_press_sample:main',
+            'l0voj_keyboard_test = l0voj_turtle.l0voj_keyboard_press:main'
         ],
     },
 )
